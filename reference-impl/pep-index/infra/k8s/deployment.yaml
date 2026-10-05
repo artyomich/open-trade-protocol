@@ -19,7 +19,7 @@ spec:
             - containerPort: 8001
           env:
             - name: PEP_INDEX_INDEX_URL
-              value: "https://api.opentrades.io/v1"
+              value: "https://api.opentradeprotocol.com/v1"
             - name: PEP_INDEX_DATABASE_URL
               valueFrom:
                 secretKeyRef:

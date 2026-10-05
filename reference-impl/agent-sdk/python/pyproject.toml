@@ -15,10 +15,10 @@ keywords = [
     "federated",
 ]
 authors = [
-    {name = "OpenTrade Protocol Team", email = "dev@opentrades.io"},
+    {name = "OpenTrade Protocol Team", email = "dev@opentradeprotocol.com"},
 ]
 
 [project.urls]
-Homepage = "https://opentrades.io"
-Documentation = "https://opentrades.io/docs"
+Homepage = "https://opentradeprotocol.com"
+Documentation = "https://opentradeprotocol.com/docs"
 Repository = "https://github.com/open-trade-protocol/agent-sdk"

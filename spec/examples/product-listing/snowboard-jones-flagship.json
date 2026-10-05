@@ -1,11 +1,11 @@
 {
-  "@context": "https://opentrades.io/v1/context.jsonld",
+  "@context": "https://opentradeprotocol.com/v1/context.jsonld",
   "@type": "ot:Listing",
   "ot:version": "1.0",
 
   "identifier": {
     "ot:listingId": "lst_8f3a2b1c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
-    "ot:nodeId": "snow.opentrades.io",
+    "ot:nodeId": "snow.opentradeprotocol.com",
     "ot:timestamp": "2026-10-05T12:00:00Z",
     "ot:expiresAt": "2026-11-05T12:00:00Z"
   },
@@ -122,35 +122,35 @@
     "ot:photos": [
       {
         "ot:ref": "img_base_001",
-        "ot:url": "https://cdn.snow.opentrades.io/img/8f3a2b1c/base_001.avif",
+        "ot:url": "https://cdn.snow.opentradeprotocol.com/img/8f3a2b1c/base_001.avif",
         "ot:type": "base_closeup",
         "ot:aiVerified": true,
         "ot:aiNotes": "Consistent with declared condition grade A"
       },
       {
         "ot:ref": "img_base_002",
-        "ot:url": "https://cdn.snow.opentrades.io/img/8f3a2b1c/base_002.avif",
+        "ot:url": "https://cdn.snow.opentradeprotocol.com/img/8f3a2b1c/base_002.avif",
         "ot:type": "base_closeup_angle2",
         "ot:aiVerified": true,
         "ot:aiNotes": "Consistent with declared condition grade A"
       },
       {
         "ot:ref": "img_edge_001",
-        "ot:url": "https://cdn.snow.opentrades.io/img/8f3a2b1c/edge_001.avif",
+        "ot:url": "https://cdn.snow.opentradeprotocol.com/img/8f3a2b1c/edge_001.avif",
         "ot:type": "edge_detail",
         "ot:aiVerified": true,
         "ot:aiNotes": "Minor burr at nose - matches defect declaration"
       },
       {
         "ot:ref": "img_top_001",
-        "ot:url": "https://cdn.snow.opentrades.io/img/8f3a2b1c/top_001.avif",
+        "ot:url": "https://cdn.snow.opentradeprotocol.com/img/8f3a2b1c/top_001.avif",
         "ot:type": "topsheet_overview",
         "ot:aiVerified": true,
         "ot:aiNotes": "Clean topsheet - matches grade A-"
       }
     ],
-    "ot:video360": "https://cdn.snow.opentrades.io/vid/8f3a2b1c/360.webm",
-    "ot:aiConditionReport": "https://api.snow.opentrades.io/v1/condition/lst_8f3a2b1c"
+    "ot:video360": "https://cdn.snow.opentradeprotocol.com/vid/8f3a2b1c/360.webm",
+    "ot:aiConditionReport": "https://api.snow.opentradeprotocol.com/v1/condition/lst_8f3a2b1c"
   },
 
   "ot:escrow": {

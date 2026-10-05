@@ -1,7 +1,7 @@
 {
   "@context": {
-    "@vocab": "https://opentrades.io/v1/schema#",
-    "ot": "https://opentrades.io/v1/schema#",
+    "@vocab": "https://opentradeprotocol.com/v1/schema#",
+    "ot": "https://opentradeprotocol.com/v1/schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#",
     "schema": "http://schema.org/",
     "doap": "http://usefulinc.com/ns/doap#",

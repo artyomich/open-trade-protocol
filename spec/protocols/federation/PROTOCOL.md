@@ -22,9 +22,9 @@ POST /v1/federation/register
 Content-Type: application/json
 
 {
-  "nodeId": "snow.opentrades.io",
+  "nodeId": "snow.opentradeprotocol.com",
   "nodePublicKey": "<contents of node_public.pem>",
-  "nodeUrl": "https://snow.opentrades.io/v1",
+  "nodeUrl": "https://snow.opentradeprotocol.com/v1",
   "capabilities": ["search", "escrow", "logistics_cdek", "negotiation"],
   "supportedCategories": ["winter_sports/snowboard", "winter_sports/bindings"],
   "contact": {
@@ -38,7 +38,7 @@ Content-Type: application/json
 
 ```json
 {
-  "nodeId": "snow.opentrades.io",
+  "nodeId": "snow.opentradeprotocol.com",
   "nodeSecretKey": "<base64-encoded private key>",
   "registeredAt": "2026-10-05T12:00:00Z",
   "status": "active"
@@ -73,7 +73,7 @@ Content-Type: application/json
 Authorization: Bearer <node_secret_key>
 
 {
-  "nodeId": "snow.opentrades.io",
+  "nodeId": "snow.opentradeprotocol.com",
   "listings": [
     {
       "listingId": "lst_8f3a2b1c",
@@ -98,7 +98,7 @@ The index:
 ### Full Sync (initial)
 
 ```
-GET /v1/federation/sync/full?nodeId=snow.opentrades.io
+GET /v1/federation/sync/full?nodeId=snow.opentradeprotocol.com
 Authorization: Bearer <index_api_key>
 ```
 
@@ -120,7 +120,7 @@ POST /v1/federation/heartbeat
 Authorization: Bearer <node_secret_key>
 
 {
-  "nodeId": "snow.opentrades.io",
+  "nodeId": "snow.opentradeprotocol.com",
   "status": "healthy",
   "listingsCount": 1247,
   "lastSyncAt": "2026-10-05T12:00:00Z"
@@ -155,7 +155,7 @@ Content-Type: application/json
 Authorization: Bearer <index_api_key>
 
 {
-  "nodeId": "snow.opentrades.io",
+  "nodeId": "snow.opentradeprotocol.com",
   "reason": "security_incident",
   "newPublicKey": "<new public key>"
 }

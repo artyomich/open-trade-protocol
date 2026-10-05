@@ -10,7 +10,7 @@ requires-python = ">=3.11"
 license = {text = "Apache-2.0"}
 keywords = ["opentrade", "protocol", "marketplace", "federation", "p2p-commerce"]
 authors = [
-    {name = "OpenTrade Protocol Team", email = "dev@opentrades.io"},
+    {name = "OpenTrade Protocol Team", email = "dev@opentradeprotocol.com"},
 ]
 dependencies = [
     "fastapi>=0.109.0",

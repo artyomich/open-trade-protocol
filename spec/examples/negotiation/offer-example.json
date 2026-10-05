@@ -1,5 +1,5 @@
 {
-  "@context": "https://opentrades.io/v1/context.jsonld",
+  "@context": "https://opentradeprotocol.com/v1/context.jsonld",
   "@type": "ot:Offer",
   "ot:offerId": "off_3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f",
   "ot:listingId": "lst_8f3a2b1c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",

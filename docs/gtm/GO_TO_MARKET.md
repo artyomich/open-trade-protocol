@@ -44,7 +44,7 @@ AI agents discover and transact across all nodes using a single, well-documented
 - "Hello World" in under 10 lines
 
 ### 3. Reference Implementation
-- Snowboard niche node (snow.opentrades.io)
+- Snowboard niche node (snow.opentradeprotocol.com)
 - Proves the protocol works
 - Template for other marketplaces
 - AI-assisted listing tool (free)

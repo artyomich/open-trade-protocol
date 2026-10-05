@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     """PEP Index settings."""
     
     # Index configuration
-    index_url: str = "https://api.opentrades.io/v1"
+    index_url: str = "https://api.opentradeprotocol.com/v1"
     index_name: str = "OpenTrade PEP Index"
     
     # Server

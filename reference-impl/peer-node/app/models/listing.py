@@ -149,7 +149,7 @@ class Listing(Base):
     def to_listing_dict(self) -> dict:
         """Convert to OpenTrade Protocol listing format."""
         return {
-            "@context": "https://opentrades.io/v1/context.jsonld",
+            "@context": "https://opentradeprotocol.com/v1/context.jsonld",
             "@type": "ot:Listing",
             "ot:version": "1.0",
             "identifier": {

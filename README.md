@@ -96,7 +96,7 @@ Any marketplace can publish listings. AI agents discover and transact across all
 ## Go-to-Market Strategy
 
 ### Phase 1: Reference Node (0-6 months)
-- Launch single node: `snow.opentrades.io` (snowboard niche)
+- Launch single node: `snow.opentradeprotocol.com` (snowboard niche)
 - Perfect data schema, search API, escrow flow
 - Publish OpenAPI spec
 - Build agent SDK (Python + TypeScript)
@@ -155,7 +155,7 @@ for listing in results:
 
 ```bash
 # Register your node
-curl -X POST https://api.opentrades.io/v1/federation/register \
+curl -X POST https://api.opentradeprotocol.com/v1/federation/register \
   -H "Content-Type: application/json" \
   -d '{
     "nodeId": "myshop.example.com",
@@ -189,7 +189,7 @@ Apache 2.0 — the protocol is open, free, and governed by no single entity.
 
 ## Links
 
-- **Website:** https://opentrades.io
-- **API Docs:** https://api.opentrades.io/v1/docs
-- **Protocol Spec:** https://opentrades.io/spec
+- **Website:** https://opentradeprotocol.com
+- **API Docs:** https://api.opentradeprotocol.com/v1/docs
+- **Protocol Spec:** https://opentradeprotocol.com/spec
 - **GitHub:** https://github.com/open-trade-protocol

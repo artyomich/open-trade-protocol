@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://opentrades.io/schemas/v1/category/winter_sports/snowboard.json",
+  "$id": "https://opentradeprotocol.com/schemas/v1/category/winter_sports/snowboard.json",
   "title": "Snowboard",
   "description": "JSON Schema for snowboard product listings in the OpenTrade Protocol",
   "type": "object",

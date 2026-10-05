@@ -234,7 +234,7 @@ export class Client {
   constructor(config: ClientConfig = {}) {
     this.apiKey = config.apiKey;
     this.didJwt = config.didJwt;
-    this.baseUrl = (config.baseUrl || 'https://api.opentrades.io/v1').replace(/\/$/, '');
+    this.baseUrl = (config.baseUrl || 'https://api.opentradeprotocol.com/v1').replace(/\/$/, '');
   }
 
   private headers(auth?: string): Record<string, string> {

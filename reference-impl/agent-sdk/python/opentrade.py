@@ -178,7 +178,7 @@ class Client:
         self,
         api_key: Optional[str] = None,
         did_jwt: Optional[str] = None,
-        base_url: str = "https://api.opentrades.io/v1",
+        base_url: str = "https://api.opentradeprotocol.com/v1",
     ):
         self.api_key = api_key
         self.did_jwt = did_jwt

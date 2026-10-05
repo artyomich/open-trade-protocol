@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     """Application settings loaded from environment or config file."""
     
     # Node configuration
-    node_id: str = "snow.opentrades.io"
+    node_id: str = "snow.opentradeprotocol.com"
     node_name: str = "Snowboard Reference Node"
     node_secret_key: Optional[str] = None
     category: str = "winter_sports/snowboard"
@@ -29,7 +29,7 @@ class Settings(BaseSettings):
     qdrant_url: str = "http://localhost:6333"
     
     # Federation
-    federation_index_url: str = "https://api.opentrades.io/v1"
+    federation_index_url: str = "https://api.opentradeprotocol.com/v1"
     federation_heartbeat_interval: int = 300  # 5 minutes
     federation_sync_interval: int = 60  # 1 minute
     

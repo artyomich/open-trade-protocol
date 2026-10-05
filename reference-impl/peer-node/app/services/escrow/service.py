@@ -127,7 +127,7 @@ class EscrowService:
                 "platformFee": {"amount": platform_fee, "currency": "RUB"},
                 "total": {"amount": product_price + shipping_cost + insurance_cost + platform_fee, "currency": "RUB"},
             },
-            "paymentUrl": f"https://pay.opentrades.io/esc/{escrow_id}",
+            "paymentUrl": f"https://pay.opentradeprotocol.com/esc/{escrow_id}",
             "paymentExpiresAt": (datetime.utcnow() + timedelta(minutes=30)).isoformat(),
             "inspectionPeriodHours": 48,
             "disputeWindowHours": 72,

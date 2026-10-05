@@ -40,10 +40,10 @@
     "federated"
   ],
   "authors": [
-    { "name": "OpenTrade Protocol Team", "email": "dev@opentrades.io" }
+    { "name": "OpenTrade Protocol Team", "email": "dev@opentradeprotocol.com" }
   ],
   "repository": "https://github.com/open-trade-protocol/agent-sdk-ts",
-  "homepage": "https://opentrades.io",
+  "homepage": "https://opentradeprotocol.com",
   "bugs": {
     "url": "https://github.com/open-trade-protocol/agent-sdk-ts/issues"
   }

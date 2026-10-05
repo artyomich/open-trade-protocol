@@ -5,7 +5,7 @@
 - [x] Protocol specification (OpenAPI, JSON-LD, protocol docs)
 - [x] Agent SDKs (Python, TypeScript)
 - [ ] Category schemas for snowboard niche
-- [ ] Reference node implementation (snow.opentrades.io)
+- [ ] Reference node implementation (snow.opentradeprotocol.com)
 - [ ] CI/CD pipeline for spec validation
 - [ ] GitHub organization and repository structure
 - [ ] Community guidelines and contribution process
@@ -18,7 +18,7 @@
 - [ ] Trust score computation
 - [ ] Search service with Meilisearch + vector search
 - [ ] Agent SDK v0.2 with real API integration
-- [ ] Documentation site (opentrades.io/docs)
+- [ ] Documentation site (opentradeprotocol.com/docs)
 - [ ] Beta testing with snowboard shops
 
 ## Phase 3: Open SDK (Months 7-12)

@@ -104,7 +104,7 @@ Authorization: Bearer <buyer_did_jwt>
     "platformFee": { "amount": 420, "currency": "RUB" },
     "total": { "amount": 29450, "currency": "RUB" }
   },
-  "paymentUrl": "https://pay.opentrades.io/esc/esc_9e8d7c6b",
+  "paymentUrl": "https://pay.opentradeprotocol.com/esc/esc_9e8d7c6b",
   "paymentExpiresAt": "2026-10-05T12:30:00Z",
   "inspectionPeriodHours": 48,
   "disputeWindowHours": 72

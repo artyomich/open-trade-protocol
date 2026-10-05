@@ -70,10 +70,10 @@ See `config/settings.example.yaml` for all available settings:
 ### Node Registration
 
 ```bash
-curl -X POST https://api.opentrades.io/v1/federation/register \
+curl -X POST https://api.opentradeprotocol.com/v1/federation/register \
   -H "Content-Type: application/json" \
   -d '{
-    "nodeId": "snow.opentrades.io",
+    "nodeId": "snow.opentradeprotocol.com",
     "nodePublicKey": "...",
     "capabilities": ["search", "escrow", "logistics"]
   }'
@@ -82,11 +82,11 @@ curl -X POST https://api.opentrades.io/v1/federation/register \
 ### Announce Listings
 
 ```bash
-curl -X POST https://api.opentrades.io/v1/federation/announce \
+curl -X POST https://api.opentradeprotocol.com/v1/federation/announce \
   -H "Content-Type: application/json" \
   -H "Authorization: Bearer <node_secret_key>" \
   -d '{
-    "nodeId": "snow.opentrades.io",
+    "nodeId": "snow.opentradeprotocol.com",
     "listings": [{"listingId": "lst_123", "signature": "...", "data": {...}}]
   }'
 ```
@@ -94,10 +94,10 @@ curl -X POST https://api.opentrades.io/v1/federation/announce \
 ### Send Heartbeat
 
 ```bash
-curl -X POST https://api.opentrades.io/v1/federation/heartbeat \
+curl -X POST https://api.opentradeprotocol.com/v1/federation/heartbeat \
   -H "Authorization: Bearer <node_secret_key>" \
   -d '{
-    "nodeId": "snow.opentrades.io",
+    "nodeId": "snow.opentradeprotocol.com",
     "status": "healthy",
     "listingsCount": 1247,
     "lastSyncAt": "2026-10-05T12:00:00Z"

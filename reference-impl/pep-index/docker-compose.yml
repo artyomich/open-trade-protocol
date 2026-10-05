@@ -8,7 +8,7 @@ services:
     ports:
       - "8001:8001"
     environment:
-      - PEP_INDEX_INDEX_URL=https://api.opentrades.io/v1
+      - PEP_INDEX_INDEX_URL=https://api.opentradeprotocol.com/v1
       - PEP_INDEX_DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/pep_index
       - PEP_INDEX_MEILISEARCH_URL=http://meilisearch:7700
       - PEP_INDEX_QDRANT_URL=http://qdrant:6333

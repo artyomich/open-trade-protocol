@@ -7,7 +7,7 @@ info:
     Any node can publish listings; AI agents discover and transact across all nodes using a single API.
   contact:
     name: OpenTrade Protocol Team
-    url: https://opentrades.io
+    url: https://opentradeprotocol.com
   license:
     name: Apache-2.0
     url: https://www.apache.org/licenses/LICENSE-2.0
@@ -16,9 +16,9 @@ info:
   x-auth: "Bearer API key or DID-signed JWT"
 
 servers:
-  - url: https://api.opentrades.io/v1
+  - url: https://api.opentradeprotocol.com/v1
     description: Primary OpenTrade API (PEP Index)
-  - url: https://snow.opentrades.io/v1
+  - url: https://snow.opentradeprotocol.com/v1
     description: Reference node - snowboard category
 
 paths:

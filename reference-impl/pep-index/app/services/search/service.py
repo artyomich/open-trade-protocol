@@ -58,7 +58,7 @@ class SearchService:
         if category_id == "winter_sports/snowboard":
             return {
                 "$schema": "https://json-schema.org/draft/2020-12/schema",
-                "$id": "https://opentrades.io/schemas/v1/category/winter_sports/snowboard.json",
+                "$id": "https://opentradeprotocol.com/schemas/v1/category/winter_sports/snowboard.json",
                 "title": "Snowboard",
                 "type": "object",
                 "required": ["category", "brand", "model", "condition", "specifications"],

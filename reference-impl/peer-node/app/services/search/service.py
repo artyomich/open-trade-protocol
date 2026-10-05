@@ -153,7 +153,7 @@ class SearchService:
         if category_id == "winter_sports/snowboard":
             return {
                 "$schema": "https://json-schema.org/draft/2020-12/schema",
-                "$id": "https://opentrades.io/schemas/v1/category/winter_sports/snowboard.json",
+                "$id": "https://opentradeprotocol.com/schemas/v1/category/winter_sports/snowboard.json",
                 "title": "Snowboard",
                 "type": "object",
                 "required": ["category", "brand", "model", "condition", "specifications"],
@@ -205,7 +205,7 @@ class SearchService:
         return [
             {
                 "listing_id": f"lst_sample_{i}",
-                "node_id": "snow.opentrades.io",
+                "node_id": "snow.opentradeprotocol.com",
                 "product": {
                     "category": "winter_sports/snowboard",
                     "brand": "Jones",
@@ -229,7 +229,7 @@ class SearchService:
         """Return a sample listing."""
         return {
             "listing_id": listing_id,
-            "node_id": "snow.opentrades.io",
+            "node_id": "snow.opentradeprotocol.com",
             "product": {
                 "category": "winter_sports/snowboard",
                 "brand": "Jones",

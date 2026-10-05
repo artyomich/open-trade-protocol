@@ -8,11 +8,11 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - OT_NODE_ID=snow.opentrades.io
+      - OT_NODE_ID=snow.opentradeprotocol.com
       - OT_DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/opentrade
       - OT_MEILISEARCH_URL=http://meilisearch:7700
       - OT_QDRANT_URL=http://qdrant:6333
-      - OT_FEDERATION_INDEX_URL=https://api.opentrades.io/v1
+      - OT_FEDERATION_INDEX_URL=https://api.opentradeprotocol.com/v1
     depends_on:
       - db
       - meilisearch

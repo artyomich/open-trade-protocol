@@ -104,7 +104,7 @@ We chose the federated model (Proposal 2) as the architectural foundation, combi
 
 ### Phase 1: Reference Node (0–6 months)
 
-- Launch single node: `snow.opentrades.io` (snowboard niche)
+- Launch single node: `snow.opentradeprotocol.com` (snowboard niche)
 - Perfect the data schema, search API, and escrow flow
 - Publish OpenAPI spec
 - Build agent SDK (Python + TypeScript)
@@ -151,10 +151,10 @@ We chose the federated model (Proposal 2) as the architectural foundation, combi
 
 - **Protocol:** OpenTrade Protocol
 - **Specification prefix:** `ot:` (e.g., `ot:Listing`, `ot:TrustScore`)
-- **Context URL:** `https://opentrades.io/v1/context.jsonld`
-- **API base:** `https://api.opentrades.io/v1/`
+- **Context URL:** `https://opentradeprotocol.com/v1/context.jsonld`
+- **API base:** `https://api.opentradeprotocol.com/v1/`
 - **Agent SDK:** `@opentrade/agent-sdk`
-- **Domain:** `opentrades.io` (short, memorable)
+- **Domain:** `opentradeprotocol.com` (short, memorable)
 
 ---
 

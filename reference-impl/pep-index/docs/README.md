@@ -35,31 +35,31 @@ docker-compose up -d
 
 ### Node Registration
 ```bash
-curl -X POST https://api.opentrades.io/v1/federation/register \
-  -d "nodeId=snow.opentrades.io" \
+curl -X POST https://api.opentradeprotocol.com/v1/federation/register \
+  -d "nodeId=snow.opentradeprotocol.com" \
   -d "nodePublicKey=<key>" \
-  -d "nodeUrl=https://snow.opentrades.io/v1" \
+  -d "nodeUrl=https://snow.opentradeprotocol.com/v1" \
   -d "capabilities=search,escrow" \
   -d "supportedCategories=winter_sports/snowboard"
 ```
 
 ### Announce Listings
 ```bash
-curl -X POST https://api.opentrades.io/v1/federation/announce \
-  -d "nodeId=snow.opentrades.io" \
+curl -X POST https://api.opentradeprotocol.com/v1/federation/announce \
+  -d "nodeId=snow.opentradeprotocol.com" \
   -d "signature=<sig>" \
   -d "listings=lst_123,lst_456"
 ```
 
 ### Heartbeat
 ```bash
-curl -X POST https://api.opentrades.io/v1/federation/heartbeat \
-  -d "nodeId=snow.opentrades.io"
+curl -X POST https://api.opentradeprotocol.com/v1/federation/heartbeat \
+  -d "nodeId=snow.opentradeprotocol.com"
 ```
 
 ### Search
 ```bash
-curl -X POST https://api.opentrades.io/v1/search \
+curl -X POST https://api.opentradeprotocol.com/v1/search \
   -d "query=Jones Flagship 158" \
   -d "category=winter_sports/snowboard" \
   -d "condition=good" \

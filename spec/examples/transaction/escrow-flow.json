@@ -1,5 +1,5 @@
 {
-  "@context": "https://opentrades.io/v1/context.jsonld",
+  "@context": "https://opentradeprotocol.com/v1/context.jsonld",
   "@type": "ot:Escrow",
   "ot:escrowId": "esc_9e8d7c6b-5f4a-3b2c-1d0e-9f8a7b6c5d4e",
   "ot:listingId": "lst_8f3a2b1c-4d5e-6f7a-8b9c-0d1e2f3a4b5c",
