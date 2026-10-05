@@ -1,0 +1,50 @@
+{
+  "name": "@opentrade/agent-sdk",
+  "version": "0.1.0-draft",
+  "description": "TypeScript client for the OpenTrade Protocol — AI agent commerce SDK",
+  "main": "dist/client.js",
+  "types": "dist/client.d.ts",
+  "module": "dist/client.mjs",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/client.mjs",
+      "require": "./dist/client.js",
+      "types": "./dist/client.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "test": "jest",
+    "lint": "eslint src/",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^5.0",
+    "rollup": "^4.0",
+    "@rollup/plugin-typescript": "^11.0",
+    "jest": "^29.0"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "opentrade",
+    "protocol",
+    "ai-agent",
+    "commerce",
+    "marketplace",
+    "escrow",
+    "negotiation",
+    "federated"
+  ],
+  "authors": [
+    { "name": "OpenTrade Protocol Team", "email": "dev@opentrades.io" }
+  ],
+  "repository": "https://github.com/open-trade-protocol/agent-sdk-ts",
+  "homepage": "https://opentrades.io",
+  "bugs": {
+    "url": "https://github.com/open-trade-protocol/agent-sdk-ts/issues"
+  }
+}
