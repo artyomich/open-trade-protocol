@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  pep-index:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8001:8001"
+    environment:
+      - PEP_INDEX_INDEX_URL=https://api.opentrades.io/v1
+      - PEP_INDEX_DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/pep_index
+      - PEP_INDEX_MEILISEARCH_URL=http://meilisearch:7700
+      - PEP_INDEX_QDRANT_URL=http://qdrant:6333
+    depends_on:
+      - db
+      - meilisearch
+      - qdrant
+    volumes:
+      - ./config:/app/config
+
+  db:
+    image: postgres:16-alpine
+    environment:
+      - POSTGRES_DB=pep_index
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  meilisearch:
+    image: getmeili/meilisearch:latest
+    environment:
+      - MEILI_NO_ANALYTICS=true
+      - MEILI_MASTER_KEY=
+    ports:
+      - "7701:7700"
+    volumes:
+      - meilisearch_data:/meili_data
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6335:6333"
+      - "6336:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+volumes:
+  postgres_data:
+  meilisearch_data:
+  qdrant_data:
